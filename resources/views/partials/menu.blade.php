@@ -53,7 +53,7 @@
                                     <i class="fa-fw fas fa-user nav-icon">
 
                                     </i>
-                                    Учителя
+                                    Преподаватели
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -93,7 +93,7 @@
                     <i class="fa-fw fas fa-calendar nav-icon">
 
                     </i>
-                    Calendar
+                    Расписание
                 </a>
             </li>
             <li class="nav-item">
