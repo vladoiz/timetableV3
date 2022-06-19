@@ -24,6 +24,10 @@
                 <span class="help-block">{{ trans('cruds.lesson.fields.class_helper') }}</span>
             </div>
             <div class="form-group">
+                <label class="required" for="lesson_name">Предмет</label>
+                <input class="form-control" type="text" id="lesson_name" required>
+            </div>
+            <div class="form-group">
                 <label class="required" for="teacher_id">{{ trans('cruds.lesson.fields.teacher') }}</label>
                 <select class="form-control select2 {{ $errors->has('teacher') ? 'is-invalid' : '' }}" name="teacher_id" id="teacher_id" required>
                     @foreach($teachers as $id => $teacher)
